@@ -207,7 +207,7 @@ open class Floaty: UIView {
   /**
    Button image view.
    */
-  fileprivate var buttonImageView: UIImageView = UIImageView()
+  public var buttonImageView: UIImageView = UIImageView()
   
   /**
    If you keeping touch inside button, button overlaid with tint layer.
